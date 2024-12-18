@@ -11,7 +11,7 @@ hide_decoration_bar_style = '''
         header {visibility: hidden;}
     </style>
 '''
-# st.markdown(hide_decoration_bar_style, unsafe_allow_html=True) # Hiding the Streamlit header
+st.markdown(hide_decoration_bar_style, unsafe_allow_html=True) # Hiding the Streamlit header
 
 # Global variables to hold data
 customers = {}
