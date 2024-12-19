@@ -32,7 +32,8 @@ class User:
         """
         Formatted string representation of the user.
         """
-        return f"User ID: {self.user_id}\nName: {self.name}\nEmail: {self.email}\nPhone: {self.phone}" #
+        return f"User ID: {self.user_id}\nName: {self.name}\nEmail: {self.email}\nPhone: {self.phone}"
+    
 #### Subclass: Regular User
 class RegularUser(User):
     def __init__(self, user_id, name, email, phone):
